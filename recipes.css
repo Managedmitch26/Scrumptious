@@ -8,8 +8,9 @@ main {
 }
 
 footer {
-    padding: 24px 0px;
-    margin: 24px;
+    padding: 16px;
+    text-align: center;
+    background-color: rgb(90, 197, 3);
 }
 
 img {
@@ -20,3 +21,72 @@ nav {
     border-bottom: 1px black;
     padding: 16px;
 }
+
+header {
+    background-color: rgb(2, 132, 179);
+    box-shadow: 0px 3px rgb(8, 189, 189);
+}
+
+a.top_header {
+    color: white;
+}
+ a:hover {
+    color: blueviolet;
+ }
+
+ /* a:visited {
+    color: red;
+ } */
+
+ h1 {
+    color: rgb(7, 72, 15);
+    font-size: 45px;
+ }
+
+ h2 {
+    font-size: 25px;
+ }
+
+ a.vegetarian_taco {
+    color: rgb(8, 166, 5);
+    text-decoration: none;
+ }
+
+ div.stars {
+    padding: 0px 0px 16px 0px;
+    text-align: left;
+ }
+
+ table {
+    border: 1px solid black;
+ }
+
+
+ tbody tr:nth-child(even) {
+    background-color: silver;
+ }
+
+ .container {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr;
+   grid-template-areas:
+   "content-1 content-2 content-3 content-4"
+   "content-5 none none none"
+ }
+
+ .content-1 {
+   grid-area: content-1;
+ }
+ .content-2 {
+   grid-area: content-2;
+ }
+ .content-3 {
+   grid-area: content-3;
+ }
+ .content-4 {
+   grid-area: content-4;
+ }
+ .content-5 {
+   grid-area: content-5;
+ }
